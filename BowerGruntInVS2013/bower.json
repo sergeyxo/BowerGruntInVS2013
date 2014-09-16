@@ -1,0 +1,24 @@
+{
+    "name": "vs-grunt-example",
+    "version": "0.0.1",
+    "authors": [
+        "Randy Bacon <randy@hirerandybacon.com>"
+    ],
+    "description": "Example using grunt and bower in VS2013",
+    "homepage": "www.hirerandybacon.com/blog",
+    "dependencies": {
+        "jquery": null,
+        "leaflet": null,
+        "leaflet-plugins": null
+    },
+    "exportsOverride": {
+        "leaflet-plugins": {
+            "control": "control/*.js",
+            "css": "css/*",
+            "layer": "layer/*.js",
+            "layer/tile": "layer/tile/*.js",
+            "layer/vector": "layer/vector/*.js"
+        }
+    },
+    "private": true
+}
