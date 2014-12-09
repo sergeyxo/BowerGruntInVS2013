@@ -68,14 +68,45 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Gruntfile.js" />
+    <Content Include="scripts\vendor\dist\project-vendor-src.js" />
+    <Content Include="scripts\vendor\dist\project-vendor.min-0.0.1.js" />
+    <Content Include="scripts\vendor\jquery\jquery.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\control\Distance.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\control\Layers.Load.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\control\Permalink.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\control\Permalink.Layer.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\control\Permalink.Line.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\control\Permalink.Marker.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\css\cross.png" />
+    <Content Include="scripts\vendor\leaflet-plugins\css\distance.css" />
+    <Content Include="scripts\vendor\leaflet-plugins\css\measure.png" />
+    <Content Include="scripts\vendor\leaflet-plugins\css\osb.css" />
+    <Content Include="scripts\vendor\leaflet-plugins\layer\Icon.Canvas.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\layer\Layer.Deferred.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\layer\Marker.Rotate.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\layer\Marker.Text.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\layer\OpenStreetBugs.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\layer\tile\Bing.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\layer\tile\Google.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\layer\tile\Yandex.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\layer\vector\GPX.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\layer\vector\GPX.Speed.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\layer\vector\KML.js" />
+    <Content Include="scripts\vendor\leaflet-plugins\layer\vector\OSM.js" />
+    <Content Include="scripts\vendor\leaflet\layers-2x.png" />
+    <Content Include="scripts\vendor\leaflet\layers.png" />
+    <Content Include="scripts\vendor\leaflet\leaflet-src.js" />
+    <Content Include="scripts\vendor\leaflet\leaflet.css" />
+    <Content Include="scripts\vendor\leaflet\leaflet.js" />
+    <Content Include="scripts\vendor\leaflet\marker-icon-2x.png" />
+    <Content Include="scripts\vendor\leaflet\marker-icon.png" />
+    <Content Include="scripts\vendor\leaflet\marker-shadow.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="scripts\vendor\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
