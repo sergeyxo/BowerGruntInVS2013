@@ -11,8 +11,8 @@
                     layout: 'byComponent',
                     install: true,
                     verbose: true,
-                    cleanTargetDir: false,
-                    cleanBowerDir: false,
+                    cleanTargetDir: true,
+                    cleanBowerDir: true,
                     bowerOptions: {}
                 }
             }
@@ -27,9 +27,7 @@
                   '<%= grunt.template.today("mm-dd-yyyy") %> */',
             },
             devSrc: {
-                src: ['scripts/vendor/jquery/*.js',
-            'scripts/vendor/leaflet/*.js',
-                    'scripts/vendor/leaflet-plugins/layer/tile/Google.js'],
+                src: ['scripts/vendor/jquery/*.js'],
                 dest: 'scripts/vendor/dist/project-vendor-src.js',
             },
         },
