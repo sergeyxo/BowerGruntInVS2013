@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Face detection </title>
+    <style>
+.face {
+    position: absolute;
+    border: 4px solid white;
+ }
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="/scripts/vendor/jquery.facedetection/jquery.facedetection.min.js"></script> 
+</head>
+<body>
+    <h1>Test</h1>
+    <img id="photo" src="p1.jpg" alt="photo" />
+    <script>
+        $('#photo').faceDetection({
+            complete: function (faces) {
+                console.log(faces);
+                for (var i = 0; i < faces.length; i++) {
+                    $('<div>', {
+                        'class': 'face',
+                        'css': {
+                            'position': 'absolute',
+                            'left': faces[i].x * faces[i].scaleX + 'px',
+                            'top': faces[i].y * faces[i].scaleY + 'px',
+                            'width': faces[i].width * faces[i].scaleX + 'px',
+                            'height': faces[i].height * faces[i].scaleY + 'px'
+                        }
+                    })
+                .insertAfter(this);
+                }
+            },
+            error: function (code, message) {
+                alert('Error: ' + message);
+            }
+        });
+
+
+    </script>
+</body>
+</html>

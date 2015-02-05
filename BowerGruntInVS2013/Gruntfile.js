@@ -1,4 +1,5 @@
-﻿module.exports = function (grunt) {
+/// <vs Clean='install-bower-packages' />
+module.exports = function (grunt) {
     grunt.initConfig({
         //this loads our packages for our grunt file
         pkg: grunt.file.readJSON('package.json'),

@@ -1,0 +1,6 @@
+C:\_projects\nodejs\BowerGruntInVS2013\BowerGruntInVS2013\bin\BowerGruntInVS2013.dll.config
+C:\_projects\nodejs\BowerGruntInVS2013\BowerGruntInVS2013\bin\BowerGruntInVS2013.dll
+C:\_projects\nodejs\BowerGruntInVS2013\BowerGruntInVS2013\bin\BowerGruntInVS2013.pdb
+C:\_projects\nodejs\BowerGruntInVS2013\BowerGruntInVS2013\obj\Debug\BowerGruntInVS2013.csprojResolveAssemblyReference.cache
+C:\_projects\nodejs\BowerGruntInVS2013\BowerGruntInVS2013\obj\Debug\BowerGruntInVS2013.dll
+C:\_projects\nodejs\BowerGruntInVS2013\BowerGruntInVS2013\obj\Debug\BowerGruntInVS2013.pdb
